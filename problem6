@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class problem6 {
+
+  // This program will give calculate interest
+
+    public static void main(String[] args) {
+      Scanner input = new Scanner (System.in);
+        System.out.println("B= ");
+        double B = input.nextDouble();
+        System.out.println("AIR= ");
+        double AIR = input.nextDouble();
+        double result = B * ( AIR / 1200);
+        System.out.println("Interest= "+ result);
+                
+    
+       
+    
+    }
+    
+    
+}
