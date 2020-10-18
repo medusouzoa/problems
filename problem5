@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class problem5 {
+
+  /*birim fiyatlar türk lirası üzerinden girilir ve toplam hesaplanır.
+*/
+    public static void main(String[] args) {
+      Scanner input = new Scanner (System.in);
+        System.out.println("1 kuruş miktarı= ");
+      double krs1 = input.nextDouble();
+        System.out.println("25 kuruş miktarı= ");
+    double krs25 = input.nextDouble();
+        System.out.println("50 kuruş miktarı= ");
+     double krs50 = input.nextDouble();
+        System.out.println("1 tl miktarı= ");
+        double tl1 = input.nextDouble();
+        double fiyat = krs1 + krs25 + krs50 + tl1 ;
+        System.out.println("fiyat= " + fiyat);
+       
+    
+    }
+    
+    
+}
