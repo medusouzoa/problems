@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class problem2 {
+
+  //this will give you a product's value with %18 tax
+
+  
+    public static void main(String[] args) {
+ 
+        Scanner input = new Scanner (System.in);
+        System.out.println("price= ");
+        double price = input.nextDouble();
+        double TotalPrice = price + (price * 0.18);
+        System.out.println("TotalPrice= "+ TotalPrice);
+            
+            
+    }
+}
