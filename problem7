@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+// This program is calculating Future Investment Value.
+
+public class problem7 {
+
+  
+    public static void main(String[] args) {
+  Scanner input = new Scanner (System.in);
+        
+        System.out.println("Enter IA= ");
+        double IA = input.nextDouble();
+        System.out.println("Enter AIR= ");
+        double AIR = input.nextDouble();
+                System.out.println("Enter NY= ");
+                double NY = input.nextDouble();
+                double FIV = IA * Math.pow(1+ AIR / 1200, NY * 12 );
+        System.out.println("FIV= "+ FIV);
+    }
+    
+}
