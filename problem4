@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class problem4  {
+
+  /*You will type an integer between 0 and 1000. This program will add all digits in the integer. 
+     For example : If  you type 945,  program will give you 18.
+ */
+   
+    public static void main(String[] args) {
+    Scanner input = new Scanner (System.in);
+        System.out.println("Enter your integer= ");
+   double yours = input.nextDouble();
+           double x = yours/100 ;
+           double y = yours%100 ;
+           double result = x + (y/10) + (y%10);
+           System.out.println("The result is " + result);
+            }
+    
+}
