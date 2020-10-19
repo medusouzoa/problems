@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class problem9 {
+
+  
+    public static void main(String[] args) {
+    
+   //This will convert Celcius to Fahrenheit
+   
+      Scanner input = new Scanner (System.in);
+        System.out.println("C= ");
+        double C = input.nextDouble();
+        double result = (9/5)* C +32 ;
+        System.out.println(C + "C = " + result + "F");
+                
+    
+       
+    
+    }
+    
+    
+}
