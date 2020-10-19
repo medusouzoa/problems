@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class problem8 {
+
+  
+    public static void main(String[] args) {
+    
+    // This will convert Celcius to Kelvin
+    
+      Scanner input = new Scanner (System.in);
+        System.out.println("C= ");
+        double C = input.nextDouble();
+        double result = C + 273;
+        System.out.println(C + "C = " + result + "K");
+                
+    
+       
+    
+    }
+    
+    
+}
